@@ -1,0 +1,29 @@
+server:
+  port: 8081
+properties:
+  testInt: 100
+  testStr: 200
+  testArrInt:
+    - 100
+    - 200
+    - 300
+  testArrStr:
+    - 400
+    - 500
+    - 600
+  testListInteger:
+    - 1000
+    - 1100
+    - 1200
+  testListStr:
+    - q
+    - w
+    - e
+  map: {k5: v5, k6: v6}
+  user:
+    name: 王五
+    age: 20
+    address:
+      - 南京
+      - 天津
+

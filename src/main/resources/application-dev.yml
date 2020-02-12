@@ -1,0 +1,28 @@
+server:
+  port: 8080
+properties:
+  testInt: 10
+  testStr: 20
+  testArrInt:
+    - 10
+    - 20
+    - 30
+  testArrStr:
+    - 40
+    - 50
+    - 60
+  testListInteger:
+    - 100
+    - 110
+    - 120
+  testListStr:
+    - a
+    - s
+    - d
+  map: {k3: v3, k4: v4}
+  user:
+    name: 李四
+    age: 19
+    address:
+      - 大连
+      - 广东

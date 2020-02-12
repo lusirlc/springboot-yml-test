@@ -1,0 +1,33 @@
+# 加载的优先级是src同级的config文件夹中的配置文件，然后是和src同级的配置文件，最后是resources下的配置文件
+# 打包后jar包相当于src目录
+server:
+  port: 80
+properties:
+  testInt: 1
+  testStr: 2
+  testArrInt:
+    - 1
+    - 2
+    - 3
+  testArrStr:
+    - 4
+    - 5
+    - 6
+  testListInteger:
+    - 10
+    - 11
+    - 12
+  testListStr:
+    - a
+    - b
+    - c
+  map: {k1: v1, k2: v2}
+  user:
+    name: 张三
+    age: 18
+    address:
+      - 北京
+      - 上海
+spring:
+  profiles:
+    active: dev
